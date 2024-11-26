@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["leptos_typed_router", "leptos_typed_router_macro"]
+
+[workspace.package]
+version = "0.1.0"
+
+[workspace.dependencies]
+leptos_typed_router_macro = { path = "./leptos_typed_router_macro", default-features = false, version = "0.1.0" }
+leptos = { version = "0.7.0-rc2" }

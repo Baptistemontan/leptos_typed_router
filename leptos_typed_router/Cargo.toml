@@ -1,0 +1,8 @@
+[package]
+name = "leptos_typed_router"
+version = { workspace = true }
+edition = "2021"
+
+[dependencies]
+leptos = { workspace = true }
+leptos_typed_router_macro = { workspace = true }
